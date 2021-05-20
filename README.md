@@ -4,6 +4,9 @@ Esse é um aplicativo de 15 telas de codígo aberto sem fins lucativos para pequ
 
 Controle total sobre suas comandas e mesas em tempo real. Ideal para gerir de forma individual ou coletiva seu negócio seja Barzinho, Lanchonete, Restorante, Sorveteria etc, tendo a possibilidade de separação por mesa.
 
+Atenção!!
+O gateway de pagamento do stripe está desativado.
+
 <img src="https://user-images.githubusercontent.com/62677231/118904854-07a7d200-b8f1-11eb-98ea-a3cf5b008494.jpg" width="300" height="500"><img src="https://user-images.githubusercontent.com/62677231/118904866-0d9db300-b8f1-11eb-8426-b5dff1c2161d.jpg" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/62677231/118904878-14c4c100-b8f1-11eb-9f5e-45cea066fbb4.jpg" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/62677231/118904885-18f0de80-b8f1-11eb-9e78-1f118f2e7931.jpg" width="300" height="500">
