@@ -27,4 +27,4 @@
 
 # 🚀 Execução 🚀
 
-- yarn start ou nom start
+- yarn start ou npm start
