@@ -7,6 +7,7 @@
 <img src="https://user-images.githubusercontent.com/62677231/118904894-1f7f5600-b8f1-11eb-9496-b2c9de64647f.jpg" width="300" height="500">
 
 # 🖥 Tecnologias 🖥
+
 - axios
 - redux
 - redux-persist
@@ -18,3 +19,12 @@
 - expo-payments-stripe
 - @expo-google-fonts/inter
 - react-native-responsive-screen
+
+# ⚙ Instalação ⚙
+
+- git clone https://github.com/Marcos-Nacimento/mesa-rapida
+- yarn install ou npm install
+
+# 🚀 Execução 🚀
+
+- yarn start ou nom start
