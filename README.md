@@ -1,6 +1,6 @@
 # mesa-rapida
 
-Esse é um aplicativo de 15 telas de codígo aberto sem fins lucativos para pequenos empreededores e desenvolvedores.
+Esse é um aplicativo de 15 telas de codígo aberto, sem fins lucativos para pequenos empreededores e desenvolvedores.
 
 Controle total sobre suas comandas e mesas em tempo real. Ideal para gerir de forma individual ou coletiva seu negócio seja Barzinho, Lanchonete, Restorante, Sorveteria etc, tendo a possibilidade de separação por mesa.
 
