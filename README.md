@@ -1,6 +1,8 @@
 # mesa-rapida
 
-Controle total sobre suas comandas e mesas. Ideal para gerir de forma individual ou coletiva as comandas, tendo a possibilidade de separação por mesa.
+Esse é um aplicativo de 15 telas de codígo aberto sem fins lucativos para pequenos empreededores e desenvolvedores.
+
+Controle total sobre suas comandas e mesas em tempo real. Ideal para gerir de forma individual ou coletiva as comandas, tendo a possibilidade de separação por mesa.
 
 <img src="https://user-images.githubusercontent.com/62677231/118904854-07a7d200-b8f1-11eb-98ea-a3cf5b008494.jpg" width="300" height="500"><img src="https://user-images.githubusercontent.com/62677231/118904866-0d9db300-b8f1-11eb-8426-b5dff1c2161d.jpg" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/62677231/118904878-14c4c100-b8f1-11eb-9f5e-45cea066fbb4.jpg" width="300" height="500">
