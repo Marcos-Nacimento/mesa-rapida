@@ -18,13 +18,15 @@ import { useNavigation } from '@react-navigation/native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { heightPercentageToDP as hP } from 'react-native-responsive-screen';
 import { TableContext } from '../../contexts/tableProvider';
-import { socket } from '../../config/socket';
 
 import NetInfo from '@react-native-community/netinfo';
 import NetWork from '../../components/network';
 import NoPermission from '../../components/noPermission';
 import PaymentRedirect from '../../components/paymentRedirect';
 import Loading from '../../components/loading';
+import io from 'socket.io-client';
+
+const socket = io(api.defaults.baseURL);
 
 function KitChen({ user, route }) {
     const [tables, setTables] = useState([]);

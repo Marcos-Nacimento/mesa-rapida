@@ -20,7 +20,6 @@ import { connect } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
 import { FloatingAction } from "react-native-floating-action";
 import { api } from '../../api';
-import { socket } from '../../config/socket';
 
 import Modal from 'react-native-modal';
 import NetInfo from '@react-native-community/netinfo';
@@ -28,6 +27,9 @@ import NetWork from '../../components/network';
 import NoPermission from '../../components/noPermission';
 import PaymentRedirect from '../../components/paymentRedirect';
 import Loading from '../../components/loading';
+import io from 'socket.io-client';
+
+const socket = io(api.defaults.baseURL);
 
 import { TableContext } from '../../contexts/tableProvider';
 

@@ -18,7 +18,6 @@ import { FlatList, ActivityIndicator, RefreshControl } from 'react-native';
 import { heightPercentageToDP as hP } from 'react-native-responsive-screen';
 import { Input as InputElements } from 'react-native-elements';
 import { api } from '../../api';
-import { socket } from '../../config/socket';
 
 import Item from '../../components/item';
 import Modal from 'react-native-modal';
@@ -26,6 +25,9 @@ import NetWork from '../../components/network';
 import NetInfo from '@react-native-community/netinfo';
 import NoPermission from '../../components/noPermission';
 import PaymentRedirect from '../../components/paymentRedirect';
+import io from 'socket.io-client';
+
+const socket = io(api.defaults.baseURL);
 
 function Table({ user, route }) {
     const [query, setQuery] = useState('');

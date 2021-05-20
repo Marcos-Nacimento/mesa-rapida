@@ -15,13 +15,15 @@ import { api } from '../../api';
 import { connect } from 'react-redux';
 import { TableContext } from '../../contexts/tableProvider';
 import { useNavigation } from '@react-navigation/native';
-import { socket } from '../../config/socket';
 
 import NetInfo from '@react-native-community/netinfo';
 import NetWork from '../../components/network';
 import NoPermission from '../../components/noPermission';
 import PaymentRedirect from '../../components/paymentRedirect';
 import Loading from '../../components/loading';
+import io from 'socket.io-client';
+
+const socket = io(api.defaults.baseURL);
 
 function DetailOrder({ user }) {
     const [isConnected, setConnected] = useState(false);
