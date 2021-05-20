@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Mesa Rápida",
+    "slug": "MesaRapida",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7159c3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#7159c2"
+      },
+      "package": "com.tableFast.MesaRapida",
+      "versionCode": 1
+    }
+  }
+}
